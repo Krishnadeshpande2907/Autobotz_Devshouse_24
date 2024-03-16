@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="globals.css" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      background-image: url('./img/money-bg.jpeg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed; /* This keeps the background image fixed when scrolling */
+    }
+    
+  </style>
+</head>
+<body>
+  <div id="stars">
+    <div></div>
+  </div>
+  <div id="stars2">
+    <div></div>
+  </div>
+  <div id="stars3">
+    <div></div>
+  </div>
+
+  <div class="login">
+    <div class="overlap-wrapper">
+      <div class="overlap">
+        <div class="overlap-group">
+          <div class="text-wrapper" margin-top="-100px">Welcome back to <br/> Kharcha!</div>
+          <div class="ellipse"></div>
+          <div class="ellipse-2"></div>
+          <div class="frame-wrapper">
+            <div class="frame-2">
+              <div class="frame-3">
+                <div class="upper-section">
+                  <div class="login-text">
+                    <div class="text-wrapper-2">Login</div>
+                  </div>
+                  <div class="credentials">
+                    <input class="username1" placeholder="Username" type="text" id="input-0" />
+                    <div class="password-rem">
+                        <div class="password">
+                            <div class="text-wrapper-4"></div>
+                            <input class="password1" placeholder="Password" type="password" id="password-input" />
+                        </div>
+                        <div class="remember">
+                            <img class="img" src="img/fluent-checkbox-checked-16-filled.svg" />
+                            <div class="text-wrapper-5">Remember me</div>
+                        </div>
+                    </div>
+                    <div class="login-bt-fp">
+                        <div class="div-wrapper"><div class="text-wrapper-6" onclick="login()">Login</div></div>
+                        <a class="text-wrapper-3" href="/Forgot password/index.html">Forgot password ?</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="other-logins">
+                  <div class="or">
+                    <img class="line" src="img/line-2.svg" />
+                    <div class="text-wrapper-7">Or</div>
+                    <img class="line" src="img/line-2.svg" />
+                  </div>
+                  <img class="frame-4" src="img/frame-3.svg" />
+                </div>
+              </div>
+              <div class="frame-5">
+                <p class="text-wrapper-5">Don’t have an account? 
+                  <br> 
+                </p>
+                <a class="text-wrapper-5" href="/Sign up/index.html"> Signup</a>
+                  
+                <div class="customer-care">
+                  <div class="frame-6"><div class="text-wrapper-8">Terms &amp; Conditions</div></div>
+                  <div class="frame-6"><div class="text-wrapper-8">Support</div></div>
+                  <div class="frame-6"><div class="text-wrapper-8">Customer Care</div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function login() {
+      // Add your login logic here
+      alert("Login button clicked!");
+    }
+  </script>
+</body>
+</html>
