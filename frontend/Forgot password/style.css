@@ -1,0 +1,341 @@
+.forgot-password {
+  background-color: #0e0e0e;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.forgot-password .overlap-wrapper {
+  background-color: #0e0e0e;
+  overflow: hidden;
+  width: 1440px;
+  height: 1024px;
+}
+
+.forgot-password .overlap {
+  position: relative;
+  width: 1380px;
+  height: 964px;
+  top: 62px;
+  left: 60px;
+}
+
+.forgot-password .overlap-group {
+  position: absolute;
+  width: 605px;
+  height: 208px;
+  top: 318px;
+  left: 0;
+}
+
+.forgot-password .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 60px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.forgot-password .frame {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 14px 24px;
+  position: absolute;
+  top: 128px;
+  left: 9px;
+  border: 4px solid;
+  border-color: #ffffff;
+}
+
+.forgot-password .div {
+  position: relative;
+  width: fit-content;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 600;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.forgot-password .overlap-group-2 {
+  position: absolute;
+  width: 642px;
+  height: 964px;
+  top: 0;
+  left: 738px;
+}
+
+.forgot-password .ellipse {
+  filter: brightness(1.4);
+  position: absolute;
+  width: 302px;
+  height: 302px;
+  top: 0;
+  left: 0;
+  border-radius: 151px;
+  background: linear-gradient(180deg, rgb(96.69, 0, 58.01) 0%, rgb(44.8, 10.16, 47.81) 100%);
+}
+
+.forgot-password .ellipse-2 {
+  filter: brightness(1.0);
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  top: 705px;
+  left: 383px;
+  border-radius: 110px;
+  transform: rotate(-28.5deg);
+  background: linear-gradient(180deg, rgb(96.69, 0, 75.42) 0%, rgb(33.5, 10.16, 47.81) 100%);
+}
+
+.forgot-password .frame-wrapper {
+  position: absolute;
+  width: 482px;
+  height: 798px;
+  top: 51px;
+  left: 101px;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: transparent;
+  box-shadow: -8px 4px 5px #0000003d;
+  backdrop-filter: blur(53px) brightness(100%);
+  -webkit-backdrop-filter: blur(53px) brightness(100%);
+  border-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(0, 0, 0, 0)) 1;
+  background: linear-gradient(180deg, rgba(191.25, 191.25, 191.25, 0.06) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.forgot-password .frame-2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  position: relative;
+  top: 97px;
+  left: 40px;
+}
+
+.forgot-password .frame-3 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 47px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.forgot-password .upper-section {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.forgot-password .login-text {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.forgot-password .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.forgot-password .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.forgot-password .credentials {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+/* .forgot-password .username {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 16px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: #ffffff;
+  box-sizing: border-box; /* Ensure padding is included in the width 
+}*/
+
+.forgot-password .username1{
+  width: 400px;
+  padding: 14px 16px;
+  position: relative;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: #ffffff;
+  background: none;
+  margin-top: -1px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  }
+
+
+.forgot-password .username input {
+  width: 100%; /* Take up full width */
+  background: none; /* Transparent background */
+  border: none; /* No border */
+  color: #ffffff; /* Text color */
+  font-family: "Noto Sans", Helvetica; /* Font family */
+  font-size: 20px; /* Font size */
+  outline: none; /* Remove outline */
+}
+
+
+.forgot-password .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.forgot-password .login-bt-fp {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+
+.forgot-password .login {
+  display: flex;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 10px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 12px;
+  background: linear-gradient(
+    180deg,
+    rgb(232.69, 71.75, 197.28) 0%,
+    rgb(205.06, 64.08, 123.29) 53.12%,
+    rgb(116.88, 3.9, 44.57) 100%
+  );
+}
+
+.forgot-password .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.forgot-password .frame-4 {
+  margin-top: -60px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.forgot-password .p {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.forgot-password .customer-care {
+  display: flex;
+  width: 400px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 6px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 6px;
+  background: linear-gradient(180deg, rgba(97.75, 97.75, 97.75, 0) 0%, rgba(97.75, 97.75, 97.75, 0.25) 100%);
+}
+
+.forgot-password .div-wrapper {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.forgot-password .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.forgot-password .line {
+  position: absolute;
+  width: 554px;
+  height: 2px;
+  top: 486px;
+  left: 277px;
+}

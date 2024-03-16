@@ -1,0 +1,531 @@
+.login {
+  background-color: #0e0e0e;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.login .overlap-wrapper {
+  background-color: #0e0e0e;
+  overflow: hidden;
+  width: 1440px;
+  height: 1024px;
+}
+
+.login .overlap {
+  position: relative;
+  top: 81px;
+  left: 60px;
+  width: 1408px;
+  height: 937px;
+}
+
+.login .overlap-group {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1408px;
+  height: 937px;
+}
+
+.login .text-wrapper {
+  position: absolute;
+  top: 299px;
+  left: 0;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 65px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login .frame {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 14px 24px;
+  position: absolute;
+  top: 427px;
+  left: 18px;
+  border: 4px solid;
+  border-color: #ffffff;
+}
+
+.login .div {
+  position: relative;
+  width: fit-content;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login .ellipse {
+  filter: brightness(1.4);
+  position: absolute;
+  width: 302px;
+  height: 302px;
+  top: 0;
+  left: 689px;
+  border-radius: 151px;
+  background: linear-gradient(180deg, rgb(83.15, 0, 96.69) 0%, rgb(13.17, 10.16, 47.81) 100%);
+}
+
+.login .ellipse-2 {
+  filter: brightness(1.0);
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  top: 678px;
+  left: 1149px;
+  border-radius: 110px;
+  transform: rotate(-28.5deg);
+  background: linear-gradient(180deg, rgb(48.34, 0, 96.69) 0%, rgb(10.16, 16.18, 47.81) 100%); 
+}
+
+.login .frame-wrapper {
+  position: absolute;
+  width: 482px;
+  height: 798px;
+  top: 32px;
+  left: 839px;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: transparent;
+  box-shadow: -8px 4px 5px #0000003d;
+  backdrop-filter: blur(53px) brightness(100%);
+  -webkit-backdrop-filter: blur(53px) brightness(100%);
+  border-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(0, 0, 0, 0)) 1; 
+  background: linear-gradient(180deg, rgba(191.25, 191.25, 191.25, 0.06) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.login .frame-2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 101px;
+  position: relative;
+  top: 97px;
+  left: 40px;
+}
+
+.login .frame-3 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 47px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.login .upper-section {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.login .login-text {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.login .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  font-family:"Arial", Helvetica, sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login .credentials {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.login .username {
+  display: flex;
+  width: 400px;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 16px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: #ffffff;
+}
+.login .username1{
+width: 400px;
+padding: 14px 16px;
+position: relative;
+border-radius: 12px;
+border: 1px solid;
+border-color: #ffffff;
+background: none;
+margin-top: -1px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 400;
+color: #ffffff;
+font-size: 20px;
+letter-spacing: 0;
+line-height: normal;
+}
+
+.login .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+
+}
+.login .password {
+  display: flex;
+  width: 400px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: #ffffff;
+}
+
+.login .password input {
+  flex: 1;
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  outline: none;
+}
+
+.login .password .img {
+  position: relative;
+  width: 18px;
+  height: 18px;
+}
+
+
+
+
+.login .password-rem {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.login .password {
+  display: flex;
+  width: 400px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: #ffffff;
+}
+
+.login .img {
+  position: relative;
+  width: 18px;
+  height: 18px;
+}
+
+.login .remember {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.login .remember .img {
+  width: 20px; /* Set a default width */
+  max-width: 100%; /* Ensure the image does not exceed its parent's width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
+.login .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login .login-bt-fp {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.login .div-wrapper {
+  display: flex;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 10px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 12px;
+  background: linear-gradient(
+    180deg,
+    rgb(97.75, 141.78, 255) 0%,
+    rgb(134.57, 64.08, 205.06) 63.12%,
+    rgb(87.5, 3.9, 116.88) 100%
+  ); 
+  /* background-color: rgb(134.57, 64.08, 205.06); */
+
+}
+
+.login .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login .other-logins {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.login .or {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.login .line {
+  position: relative;
+  width: 170px;
+  height: 2px;
+}
+
+.login .text-wrapper-7 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-weight: 500;
+  color: #4c4c4c;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login .frame-4 {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.login .frame-5 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.login .customer-care {
+  display: flex;
+  width: 400px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 6px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 6px;
+  background: linear-gradient(180deg, rgba(97.75, 97.75, 97.75, 0) 0%, rgba(97.75, 97.75, 97.75, 0.07) 100%);
+}
+
+.login .frame-6 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.login .text-wrapper-8 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login .line-2 {
+  position: center;
+  width: 561px;
+  height: 2px;
+  top: 467px;
+  left: 270px;
+}
+
+/* @import compass
+
+
+// n is number of stars required
+@function multiple-box-shadow ($n) 
+  $value: '#{random(2000)}px #{random(2000)}px #FFF'
+  @for $i from 2 through $n
+    $value: '#{$value} , #{random(2000)}px #{random(2000)}px #FFF'
+
+  @return unquote($value)
+
+$shadows-small:  multiple-box-shadow(700)
+$shadows-medium: multiple-box-shadow(200)
+$shadows-big:    multiple-box-shadow(100)
+
+html
+  height: 100%
+  background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%)
+  overflow: hidden
+    
+#stars
+  width: 1px
+  height: 1px
+  background: transparent
+  box-shadow: $shadows-small
+  animation			: animStar 50s linear infinite
+    
+  &:after
+    content: " "
+    position: absolute
+    top: 2000px
+    width: 1px
+    height: 1px
+    background: transparent
+    box-shadow: $shadows-small
+    
+#stars2
+  width: 2px
+  height: 2px
+  background: transparent
+  box-shadow: $shadows-medium
+  animation			: animStar 100s linear infinite
+    
+  &:after
+    content: " "
+    position: absolute
+    top: 2000px
+    width: 2px
+    height: 2px
+    background: transparent
+    box-shadow: $shadows-medium
+    
+#stars3
+  width: 3px
+  height: 3px
+  background: transparent
+  box-shadow: $shadows-big
+  animation			: animStar 150s linear infinite
+    
+  &:after
+    content: " "
+    position: absolute
+    top: 2000px
+    width: 3px
+    height: 3px
+    background: transparent
+    box-shadow: $shadows-big
+
+#title
+  position: absolute
+  top: 50%
+  left: 0
+  right: 0
+  
+  color: #FFF
+  text-align: center
+  font-family: 'lato',sans-serif
+  font-weight: 300
+  font-size: 50px
+  letter-spacing: 10px
+  
+  margin-top: -60px
+  padding-left: 10px
+  
+  span
+    background: -webkit-linear-gradient(white, #38495a)
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+    
+@keyframes animStar
+  from	
+    transform: translateY(0px)
+  to		
+    transform: translateY(-2000px) */
+
